@@ -165,6 +165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abbce8216937f5f46af8903da79e123f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Cube: {fileID: 1433725037}
+  Color: {fileID: 2100000, guid: 024730324f0dba544898824cb87179db, type: 2}
 --- !u!1001 &1091343608
 Prefab:
   m_ObjectHideFlags: 0
