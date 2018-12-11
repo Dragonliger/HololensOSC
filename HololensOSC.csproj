@@ -206,17 +206,17 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/user/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/user/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="GLTFSerialization">
       <HintPath>Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/user/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/user/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -732,6 +732,14 @@
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UICollection.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityScaler.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs" />
+    <Compile Include="Assets\Scripts\OSC\OSCBundle.cs" />
+    <Compile Include="Assets\Scripts\OSC\OSCClient.cs" />
+    <Compile Include="Assets\Scripts\OSC\OSCHandler.cs" />
+    <Compile Include="Assets\Scripts\OSC\OSCMessage.cs" />
+    <Compile Include="Assets\Scripts\OSC\OSCPacket.cs" />
+    <Compile Include="Assets\Scripts\OSC\OSCReciever.cs" />
+    <Compile Include="Assets\Scripts\OSC\OSCServer.cs" />
+    <Compile Include="Assets\Scripts\OSCActivator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.cginc" />
